@@ -104,7 +104,7 @@ public class KruskalTest {
   }
 
   public static void main(String[] args) {
-    int i, j;
+    int i;
     int score;
     WUGraph g, t;
     DFSVertex[] vertArray;
@@ -123,6 +123,7 @@ public class KruskalTest {
 
     addRandomEdges(g, vertArray);
 
+// 		int j;
 //  for (i = 0; i < vertArray.length; i++) {
 //    for (j = 0; j < vertArray.length; j++) {
 //      if (g.isEdge(vertArray[i], vertArray[j])) {
