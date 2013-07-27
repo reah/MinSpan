@@ -37,7 +37,7 @@
 		</javadoc>
 	</target>
 
-	<!-- Creates the deplotable jar file -->
+	<!-- Creates the deployable jar file -->
 	<target name="jar" depends="compile">
 		<jar destfile="${dist.dir}\pr3.jar" basedir="${build.dir}">
 			<manifest>
